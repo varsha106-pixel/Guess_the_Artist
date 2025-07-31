@@ -52,15 +52,21 @@ Was my guess correct? (yes/no)
 **Project Structure**
 
 main.py                      # Main script
+
 artist_feedback.json         # Stores learning feedback
+
 .env                         # Your API keys (not tracked)
+
 README.md                    # Project documentation
 
 **Learning Mechanism**
 
 If the agent guesses artist correctly: artist_score += 1
+
 If the guess is incorrect: artist_score -= 1
+
 These scores influence future guesses using weighted sorting along with the frequency of the artist in the playlist.
+
 total_score = artist_score + frequency
 
 **Notes**
