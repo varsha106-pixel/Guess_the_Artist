@@ -51,13 +51,13 @@ Was my guess correct? (yes/no)
 
 **Project Structure**
 
-main.py                      # Main script
+main.py                           # Main script
 
-artist_feedback.json         # Stores learning feedback
+artist_feedback.json              # Stores learning feedback
 
-.env                         # Your API keys (not tracked)
+.env                              # Your API keys (not tracked)
 
-README.md                    # Project documentation
+README.md                         # Project documentation
 
 **Learning Mechanism**
 
