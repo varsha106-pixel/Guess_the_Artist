@@ -23,14 +23,23 @@ dotenv for secure API key management
 **Setup Instructions**
 
 Clone the Repository
+
 git clone https://github.com/YOUR_USERNAME/guess-the-artist
+
 cd guess-the-artist
+
 Install Dependencies
+
 pip install spotipy openai python-dotenv
+
 Create .env file
+
 SPOTIPY_CLIENT_ID=your_spotify_client_id
+
 SPOTIPY_CLIENT_SECRET=your_spotify_client_secret
+
 SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
+
 OPENAI_API_KEY=your_openai_api_key
 
 **Run the App**
